@@ -17,7 +17,6 @@ I also used:
 -	*Bootstrap v 3.3.7*: For the CSS and the HTML (Grid, Form…)   
 
 I didn’t use a database for this web application, all the data are coming from JSON file.    
-For the US3 the soled tickets are note reflected in the status.     
 
 ## HOW TO USE IT:  
 

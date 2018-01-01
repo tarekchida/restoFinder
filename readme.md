@@ -20,7 +20,7 @@ I didn’t use a database for this web application, all the data are coming from
 ### Requirement:    
 -	Apache Server (LAMP, LEMP…)     
 -	Php version superior or equal to 7.1.* 
--       phpunit ^6
+-       phpunit ^6      
 -	Browser (Chrome/ Firefox/IE11)  
 ### Steps:  
 -	Unzip the archive / clone the repository    
@@ -35,4 +35,5 @@ I didn’t use a database for this web application, all the data are coming from
 - Testing application and Api requests
 
 Run :   
+
  ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/RestoFinderTest 

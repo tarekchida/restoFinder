@@ -32,3 +32,9 @@ I didn’t use a database for this web application, all the data are coming from
         ==> This will install all the libraries and dependencies the framework needs    
 -       Under the folder /public /assets/ use the terminal to run : *bower install*     
         ==>This will install all the front libraries use in the web application
+
+## Unit tests:      
+- Testing application and Api requests
+
+Run :   
+ ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/RestoFinderTest 

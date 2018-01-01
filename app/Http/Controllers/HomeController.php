@@ -68,8 +68,11 @@ class HomeController extends Controller {
             }
             $restaurant->favorite = $favorite;
             $group = $restaurant->status;
+
+            //Add new sorting values 
             $sortingValues = $restaurant->sortingValues;
             $restaurant->sortingValues->topRestaurants = ($sortingValues->distance * $sortingValues->popularity) + $sortingValues->ratingAverage;
+
             $filtredRestaurants[$group][] = $restaurant;
         }
 
